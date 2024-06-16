@@ -7,8 +7,7 @@
     "node": "20.x"
   },
   "scripts": {
-    "start": "nodemon ./app.js",
-    "build": "npm i"
+    "start": "nodemon ./app.js"
   },
   "keywords": [],
   "author": "Manash Ranjan",
