@@ -3,10 +3,10 @@
     "builds": [
         {
             "src":"./index.js",
-            "use":"@vercel/node",
-            "build":"npx tailwindcss -i ./input.css -o ./public/stylesheets/main.css"
+            "use":"@vercel/node"
         }
     ],
+    "buildCommand": "npm run build",
     "routes": [
         {
             "src": "/(.*)",
