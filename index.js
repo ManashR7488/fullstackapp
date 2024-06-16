@@ -8,10 +8,13 @@ app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', function(req, res){
-// res.send('Hello World');
-res.render('index');
+res.send('Hello World');
+// res.render('index');
 })
 
+app.get('/admin', function(req, res){
+    res.send("admin")
+});
 
 app.listen(port, function(){
  console.log(`Example app listening on port ${port}!`);
