@@ -6,7 +6,6 @@
             "use":"@vercel/node"
         }
     ],
-    "buildCommand": "npx tailwindcss -i ./input.css -o ./public/stylesheets/main.css",
     "routes": [
         {
             "src": "/(.*)",

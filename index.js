@@ -10,7 +10,6 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.get("/", function (req, res) {
   res.render("index");
-  console.log("initialized");
 });
 
 app.get("/admin", function (req, res) {
