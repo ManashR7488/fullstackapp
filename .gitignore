@@ -1,2 +1,4 @@
 node_modules
 .env
+
+npx tailwindcss -i ./input.css -o ./public/stylesheets/main.css
